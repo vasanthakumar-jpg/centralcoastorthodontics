@@ -12,7 +12,7 @@ export default function About() {
       <p className='my-2.5 text-sm'>At Mint Orthodontics, we’re here to change your perspective on what going to the orthodontist is like. We want to meet your expectations, and then exceed them!</p>
       <button className="bg-orangetext text-white border-2 border-white font-semibold
       hover:text-orangetext hover:border-orangetext px-6 py-2 hover:bg-white transition text-center ">
-        WHAT MAKE US DIFFERENT
+        {/* WHAT MAKE US DIFFERENT */}
       </button>
     </div>
     <div className="grid md:grid-cols-2 grid-cols-1  mx-3 ">
