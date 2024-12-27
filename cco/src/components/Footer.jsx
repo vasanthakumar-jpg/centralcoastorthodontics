@@ -116,11 +116,11 @@ const Footer = () => {
               
         <div className="text-mintGreen hover:text-blue-900 flex flex-col">
             <p className="flex flex-row my-2 text-white cursor-pointer hover:text-mintGreen"> 
-              <MdLocationPin className="text-  mt-1 ml-4 mr-2" /> Minneapodivs, MN</p>
+              <MdLocationPin className="  mt-1 ml-4 mr-2" /> Minneapodivs, MN</p>
               <p className="flex flex-row my-2 text-white cursor-pointer hover:text-mintGreen"> 
-              <ImMobile className="text-  mt-1 ml-4 mr-2" /> Call / Text (612) 509-6468</p>
+              <ImMobile className="  mt-1 ml-4 mr-2" /> Call / Text (612) 509-6468</p>
               <p className="flex flex-row my-2 text-white cursor-pointer hover:text-mintGreen"> 
-              <HiOutlineChat className="text-  mt-1 ml-4 mr-2" /> Text (612) 509-6468</p>
+              <HiOutlineChat className="  mt-1 ml-4 mr-2" /> Text (612) 509-6468</p>
         </div> 
             </ul>
         </div>
