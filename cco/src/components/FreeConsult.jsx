@@ -23,7 +23,7 @@ function FreeConsult() {
       </div>
 
       <div>
-        <h1 className='text-center text-xl font-bold text-orangetext'>Get Started Today</h1>
+        <h1 className='text-center text-xl font-bold text-mintGreen'>Get Started Today</h1>
         <p className='text-center break-words mx-2'>We proudly serve patients of all ages from Minneapolis, MN, and the surrounding areas!</p>
         <p className='text-center break-words mx-2'><span className='text-black font-bold'>How It Works:</span> Simply choose your appointment day/time using our easy online scheduler.</p>
       </div>
@@ -85,7 +85,6 @@ function FreeConsult() {
       <p className='text-center text-lg break-words my-4 2xs:mx-4 2xs:text-sm base:mx-4 base:text-sm sm:mx-4 '>This site is protected by reCAPTCHA and the Google 
         <span className='text-cyan-400'> Privacy Policy <span className='text-black'>and</span>  Terms of Services </span>apply.</p>
       </div>
-      <ExperienceCare/>
     </>
 
 }

@@ -3,7 +3,7 @@ import GoogleReview from './GoogleReview'
 
 function ExperienceCare() {
   return <>
-    <div className='bg-orangetext h-full w-full'>
+    <div className='bg-mintGreen h-full w-full'>
       
       <div className='lg:grid lg:grid-cols-2'>
         <div className='h-full'>
@@ -26,8 +26,8 @@ function ExperienceCare() {
              '>
                 Get Started On Your New Smile Today</h1>
 
-            <button className="bg-orangetext text-white border-2 border-white font-semibold
-                hover:text-orangetext hover:border-orangetext px-6 py-2
+            <button className="bg-mintGreen text-white border-2 border-white font-semibold
+                hover:text-mintGreen hover:border-mintGreen px-6 py-2
                  hover:bg-white transition text-center my-2">
                 SCHEDULE FREE CONSULT
         </button>
@@ -49,7 +49,7 @@ function ExperienceCare() {
         <span className='text-brown text-2xl lg:text-3xl my-5 font-bold '>Experience</span> <br />
         <span className='text-brown text-2xl lg:text-3xl my-5 font-bold '>5-Star Care</span><br />
 
-        <p className='text-brown text-sm my-2 '>We get results, plain and simple. Check out some of our awesome 5-star reviews from so many of our <span className='text-orangetext'>happy patients</span> over the years!</p>
+        <p className='text-brown text-sm my-2 '>We get results, plain and simple. Check out some of our awesome 5-star reviews from so many of our <span className='text-mintGreen'>happy patients</span> over the years!</p>
     </div>
 
     <div className='h-full 

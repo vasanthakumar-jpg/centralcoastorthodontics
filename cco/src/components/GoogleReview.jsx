@@ -58,13 +58,13 @@ function GoogleReview() {
               key={currentIndex + index}
               className="border-4 border-gray-300 shadow-lg p-6 min-h-[200px] bg-white">
                 <div className='flex items-center gap-2 my-2'>
-                <FaGoogle className='text-orangetext text-4xl mr-3' /><FaStar className='text-orangetext text-lg' />
-                <FaStar className='text-orangetext text-lg' /><FaStar className='text-orangetext text-lg' />
-                <FaStar className='text-orangetext text-lg' /><FaStar className='text-orangetext text-lg' />
+                <FaGoogle className='text-orangetext text-4xl mr-3' /><FaStar className='text-yellowStar text-lg' />
+                <FaStar className='text-yellowStar text-lg' /><FaStar className='text-yellowStar text-lg' />
+                <FaStar className='text-yellowStar text-lg' /><FaStar className='text-yellowStar text-lg' />
                 </div>
              <p>{slide} </p>  
              <hr className='border border-gray-500 my-4 w-16' />
-             <p className='text-sky-900 font-semibold'>{names[currentIndex + index]}</p>
+             <p className='text-mintGreen font-semibold'>{names[currentIndex + index]}</p>
           <div className='flex'>
           
           </div>
@@ -77,8 +77,8 @@ function GoogleReview() {
             <div className='flex gap-3'>
                  {/* Left Arrow Button */}
                 <button onClick={prevSlide}
-                    className="flex items-center justify-center w-10 h-10 bg-sky-800
-                    text-white hover:bg-white hover:text-sky-800 hover:border-sky-800 hover:border-2
+                    className="flex items-center justify-center w-10 h-10 bg-mintGreen
+                    text-white hover:bg-white hover:text-mintGreen hover:border-mintGreen hover:border-2
                     shadow-md transition duration-300"
                 >
                     <FaAngleLeft size={20} />
@@ -86,8 +86,8 @@ function GoogleReview() {
 
                 {/* Right Arrow Button */}
                 <button onClick={nextSlide}
-                    className="flex items-center justify-center w-10 h-10 bg-sky-800
-                    text-white hover:bg-white hover:text-sky-800 hover:border-sky-800 hover:border-2
+                    className="flex items-center justify-center w-10 h-10 bg-mintGreen
+                    text-white hover:bg-white hover:text-mintGreen hover:border-mintGreen hover:border-2
                     shadow-md transition duration-300"
                 >
                     <FaAngleRight size={20} />
@@ -97,8 +97,8 @@ function GoogleReview() {
      
      <div>
         <button 
-            className="flex items-center justify-center px-2 py-1 bg-sky-800
-            text-white hover:bg-white hover:text-sky-800 hover:border-sky-800 hover:border-2
+            className="flex items-center justify-center px-2 py-1 bg-mintGreen
+            text-white hover:bg-white hover:text-mintGreen hover:border-mintGreen hover:border-2
              shadow-md transition duration-300 float-right">Reviews
         </button>
      </div>

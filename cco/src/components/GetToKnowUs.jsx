@@ -5,22 +5,23 @@ export default function GetToKnowUs() {
     <div>
       <div className="lg:flex lg:flex-col-reverse">
         <div className="flex justify-center items-center mx-4">
-          <img src="https://mintortho.com/wp-content/uploads/2024/02/Get-To-Know-Us-1.jpg" className=" w-full 2xs:h-full  md:h-96 mx-4" alt="" /></div>
+          <img src="https://mintortho.com/wp-content/uploads/2024/02/Get-To-Know-Us-1.jpg" 
+          className=" w-full 2xs:h-full  md:h-96 mx-4" alt="" /></div>
         
         <div className="lg:flex lg:flex-row lg:my-5 mx-4">
           <div className="lg:w-2/5">
           <h1 className="text-2xl font-bold text-brown mx-4 my-2 lg:text-5xl lg:mx-10 lg:my-6">Get To Know Us</h1>
           </div>
           <div className="lg:w-3/5 lg:my-2"><p className="text-sm mx-4 my-2 lg:text-lg">We are so proud of our awesome team. They are talented, smart, and go above and beyond to make your day a little brighter.</p>
-            <button className="bg-sky-800 text-white px-4 p-2 border-2 border-white
-             hover:bg-white hover:text-sky-800 hover:border-sky-800 mx-4 my-2">MEET OUR TEAM</button>
+            <button className="bg-mintGreen text-white px-4 p-2 border-2 border-white
+             hover:bg-white hover:text-mintGreen hover:border-mintGreen mx-4 my-2">MEET OUR TEAM</button>
           </div>
         </div>
     </div>
 
     <div className="">
       <h1 className="text-2xl font-bold text-brown lg:text-4xl text-center m-4  ">Better tech, better service, better orthodontics</h1>
-      <p className="text-center md:text-sm m-4 break-words  2xs:text-sm ">Committed to excellence, we use only the most advanced tools and <span className="text-orangetext">technology</span> to achieve seamless, comfortable, and personalized treatments from start to finish.</p>
+      <p className="text-center md:text-sm m-4 break-words  2xs:text-sm ">Committed to excellence, we use only the most advanced tools and <span className="text-mintGreen">technology</span> to achieve seamless, comfortable, and personalized treatments from start to finish.</p>
     </div>
 
     <div>
@@ -64,8 +65,8 @@ export default function GetToKnowUs() {
 
     </div>
     <div className='flex justify-center items-center my-5'>
-    <button className='bg-sky-800 text-white px-4 py-2 border-2 border-white
-        hover:bg-white hover:text-sky-800 hover:border-sky-800'>EXPLORE TECHNOLOGY</button>
+    <button className='bg-mintGreen text-white px-4 py-2 border-2 border-white
+        hover:bg-white hover:text-mintGreen hover:border-mintGreen'>EXPLORE TECHNOLOGY</button>
     </div>
     </div>
 
@@ -87,7 +88,7 @@ function ImageWithContent() {
       <div className='lg:w-full lg:my-16 2xs:py-4'>
         <h1 className='2xs:text-2xl md:text-4xl text-brown font-bold mx-4 my-4 lg:text-5xl lg:leading-tight '>Sustainable Practices for a Greener Tomorrow</h1>
         <p className='2xs:text-sm md:text-base mx-4 lg:text-xl '>Orthodontic treatment results in carbon emissions being released into the atmosphere.
-          <span className='text-orangetext  lg:text-xl'> Our practice</span> is making changes to help offset the negative impact of orthodontic treatment on the environment.</p>
+          <span className='text-mintGreen  lg:text-xl'> Our practice</span> is making changes to help offset the negative impact of orthodontic treatment on the environment.</p>
         <p className='2xs:text-sm md:text-sm mx-4 my-6 lg:text-xl'>One of the many ways we are working to positively impact our environment is by contributing to reviving our planet. In 2023, we donated a tree for each patient that started treatment — resulting in over 400 new trees planted. We are also a fully digital practice, so no trees are harmed in our admin process!</p>
       </div>
   </div>
@@ -131,8 +132,8 @@ function ImageWithContent() {
               </path><path d="M9.41211 0.21041V15.7193C9.41211 15.8688 9.52083 15.9905 9.6544 15.9905H14.2869C14.4205 15.9905 14.5292 15.8688 14.5292 15.7193V7.41544C14.5292 3.62051 12.6447 0.876898 9.64715 0.00640693C9.53015 -0.0272072 9.41211 0.0759538 9.41211 0.21041Z" fill="#2D2926">
               </path></svg>
               Unmatched Service</span>
-        <button className="bg-sky-800 text-white px-4 p-2 border-2 border-white
-             hover:bg-white hover:text-sky-800 hover:border-sky-800 my-2">TOUR THE OFFICE</button>
+        <button className="bg-mintGreen text-white px-4 p-2 border-2 border-white
+             hover:bg-white hover:text-mintGreen hover:border-mintGreen my-2">TOUR THE OFFICE</button>
         </div>
         
       </div>

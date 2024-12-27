@@ -10,7 +10,7 @@ export default function ComeVisitUs() {
         <h1 className='text-zinc-800 text-2xl lg:text-5xl my-5 font-bold mx-6'>Come Visit Us</h1>
       </div>
       <div className='lg:w-full mx-2'>
-        <p className='text-sm my-5  2xs:mx-4 break-words '>Have more questions? We would love to give you a tour of <span className='text-orangetext break-all'>our practice</span>! After all, it’s designed with you in mind to be as un-doctor’s-office-like as possible.
+        <p className='text-sm my-5  2xs:mx-4 break-words '>Have more questions? We would love to give you a tour of <span className='text-mintGreen break-all'>our practice</span>! After all, it’s designed with you in mind to be as un-doctor’s-office-like as possible.
         </p>
       </div>
     </div>
@@ -19,7 +19,6 @@ export default function ComeVisitUs() {
 
 <div className="w-full grid lg:grid-cols-2 lg:grid-rows-1 xl:grid-cols-3 2xl:grid-cols-3">
   {/* First Div */}
-    {/* <div className="bg-green-600 "> */}
 
         <div className=" h-full grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-1">
         
@@ -27,13 +26,13 @@ export default function ComeVisitUs() {
             2xs:mx-4
             sm:mx-2
             md:mx-6 my-4'>  
-            <h2 className="text-xl font-bold text-orangetext my-4">Address</h2>
+            <h2 className="text-xl font-bold text-mintGreen my-4">Address</h2>
             <h2 className='text-extrabold text-lg text-slate-700'>Minnepolis</h2>
-            <p className='mx-2 flex text-sm my-2'><MdLocationPin className='text-orangetext m-1'/> 2804 W43rd St</p>
+            <p className='mx-2 flex text-sm my-2'><MdLocationPin className='text-mintGreen m-1'/> 2804 W43rd St</p>
             <p className='mx-8 text-sm'>Minnepolis, MN 55419</p>
 
-            <h1 className='text-xl font-bold text-orangetext my-3'>Call / Text</h1>
-            <p className='my-2 mx-2 flex text-sm'><ImMobile className='text-orangetext m-1'/> 123-456-7890</p>
+            <h1 className='text-xl font-bold text-mintGreen my-3'>Call / Text</h1>
+            <p className='my-2 mx-2 flex text-sm'><ImMobile className='text-mintGreen m-1'/> 123-456-7890</p>
         </div>
 
         <div className='sm:my-4 h-full '>
@@ -42,7 +41,7 @@ export default function ComeVisitUs() {
             2xs:mx-4
             sm:mx-2
             md:mx-4 lg:mx-4'>
-            <h1 className='text-xl font-bold text-orangetext my-2'>Contact Hours</h1>
+            <h1 className='text-xl font-bold text-mintGreen my-2'>Contact Hours</h1>
             <tbody> 
                 <tr> 
                     <td className='py-1 text-sm'>Monday</td> 
