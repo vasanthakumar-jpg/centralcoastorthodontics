@@ -11,20 +11,26 @@ import InvisalignProvider from './components/InvisalignProvider'
 import Location from './components/Location'
 import LocationSubComponents from './components/LocationSubComponents'
 import YourFirstVisit from './components/YourFirstVisit'
+import OtherTreatment from './components/OtherTreatment'
+import Blog from './components/Blog'
+import Braces from './components/Braces'
 
 export default function App() {
   return <>
-  <AboutInvisalign/>
-  <Buttons/>
-  <InvisalignProvider/>
-  <Location/>
-  <LocationSubComponents/>
-  <YourFirstVisit/>
-  <About/> 
-   <FreeConsult/>
-   <GetToKnowUs/>
-  <ExperienceCare/> 
-  <ComeVisitUs/>
- <Footer/>  
+  <Braces/>
+  {/* <Blog/> */}
+  {/* <OtherTreatment/> */}
+   {/* <AboutInvisalign/> */}
+  {/* <Buttons/> */}
+  {/* <InvisalignProvider/> */}
+  {/* <Location/> */}
+  {/* <LocationSubComponents/> */}
+  {/* <YourFirstVisit/> */}
+  {/* <About/>  */}
+   {/* <FreeConsult/> */}
+   {/* <GetToKnowUs/> */}
+  {/* <ExperienceCare/>  */}
+  {/*<ComeVisitUs/> */}
+ {/* <Footer/>   */}
   </>
 }
