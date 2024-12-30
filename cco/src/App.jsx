@@ -18,6 +18,7 @@ import WhatMakesUsDifferent from './components/WhatMakesUsDifferent'
 import MeetDrSudit from './components/MeetDrSudit'
 import OurTechnology from './components/OurTechnology'
 import PatientReviews from './components/PatientReviews'
+import ImageVideoSlider from './components/ImageVideoSlider'
 
 export default function App() {
   return <>
@@ -42,6 +43,7 @@ export default function App() {
 {/* Location Drop Down */}
   {/* <Location/> */}
 
+<ImageVideoSlider/>
 
   {/* <InvisalignProvider/> */}
   {/* <LocationSubComponents/> */}
