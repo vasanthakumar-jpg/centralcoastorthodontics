@@ -14,23 +14,41 @@ import YourFirstVisit from './components/YourFirstVisit'
 import OtherTreatment from './components/OtherTreatment'
 import Blog from './components/Blog'
 import Braces from './components/Braces'
+import WhatMakesUsDifferent from './components/WhatMakesUsDifferent'
+import MeetDrSudit from './components/MeetDrSudit'
+import OurTechnology from './components/OurTechnology'
+import PatientReviews from './components/PatientReviews'
 
 export default function App() {
   return <>
-  <Braces/>
-  {/* <Blog/> */}
-  {/* <OtherTreatment/> */}
+
+  {/* Our Practice Drop Drown*/}
+
+   {/* <GetToKnowUs/> */}
+  {/* <WhatMakesUsDifferent/> */}
+  {/* <MeetDrSudit/> */}
+  {/* <OurTechnology/> */}
+  {/* <PatientReviews/> */}
+
+  {/* Orthodontics Drop Down */}
    {/* <AboutInvisalign/> */}
-  {/* <Buttons/> */}
-  {/* <InvisalignProvider/> */}
-  {/* <Location/> */}
-  {/* <LocationSubComponents/> */}
+  {/* <Braces/> */}
+  {/* <OtherTreatment/> */}
+
+{/* Patient Resources Drop Down */}
   {/* <YourFirstVisit/> */}
+  {/* <Blog/> */}
+
+{/* Location Drop Down */}
+  {/* <Location/> */}
+
+
+  {/* <InvisalignProvider/> */}
+  {/* <LocationSubComponents/> */}
   {/* <About/>  */}
    {/* <FreeConsult/> */}
-   {/* <GetToKnowUs/> */}
   {/* <ExperienceCare/>  */}
-  {/*<ComeVisitUs/> */}
+  {/* <ComeVisitUs/> */}
  {/* <Footer/>   */}
   </>
 }

@@ -1,8 +1,37 @@
 import React from 'react'
 import CostOfInvaslign from './CostOfInvaslign'
+import MainHeadingWithImage from './MainHeadingWithImage'
 
 export default function Braces() {
   return <>
+
+
+    <MainHeadingWithImage 
+      images = {<img
+        src="images/Free-Consult.jpg" alt="Background" className="absolute inset-0 w-full h-full" />}
+      heading = {<p className='text-white md:text-3xl font-bold text-center absolute bottom-20 
+      2xs:left-[15%] 2xs:text-lg
+          xs:left-[30%]
+          base:left:[35%]
+          md:left-[30%] 
+          lg:left-[30%]
+          xl:left-[40%]
+      '>
+       Braces in Minneapolisis</p>}
+      heading2 = {<p className='text-white text-4xl font-bold text-center absolute 
+       md:bottom-10 
+        bottom-14
+
+        2xs:left-[15%] 2xs:text-lg
+          xs:left-[30%]
+          base:left:[35%]
+          md:left-[30%] 
+          lg:left-[30%]
+          xl:left-[40%]
+      '>
+        For Kids, Teens & Adults
+        </p>}
+      />
     <div className='mx-6'>
       <h1 className='text-mintGreen text-3xl font-bold my-4'>LightForce Braces</h1>
       <p className=' my-4'>LightForce braces are the world’s first and only fully personalized 3D-printed bracket system. Unlike traditional braces, which come in a one-size-fits-all design, LightForce braces are custom-made to fit each patient’s unique smile.</p>

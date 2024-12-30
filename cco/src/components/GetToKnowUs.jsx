@@ -1,8 +1,20 @@
 import React from 'react'
+import MainHeadingWithImage from './MainHeadingWithImage'
 
 export default function GetToKnowUs() {
   return (
     <div>
+      <MainHeadingWithImage 
+        images = {<img
+          src="images/Free-Consult.jpg" alt="Background" className="absolute inset-0 w-full h-full" />}
+        heading = {<p className='text-white text-3xl font-bold text-center absolute bottom-20 
+          2xs:left-[20%]
+          xs:left-[30%]
+          base:left-[35%]
+          md:left-[40%] 
+          lg:left-[40%]
+          xl:left-[45%]'>Our Practice</p>}
+                     />
       <div className="lg:flex lg:flex-col-reverse">
         <div className="flex justify-center items-center mx-4">
           <img src="https://mintortho.com/wp-content/uploads/2024/02/Get-To-Know-Us-1.jpg" 

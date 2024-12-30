@@ -1,9 +1,33 @@
 import React from 'react'
 import CostOfInvaslign from './CostOfInvaslign'
+import MainHeadingWithImage from './MainHeadingWithImage'
 
 
 export default function AboutInvisalign() {
   return <>
+  <MainHeadingWithImage 
+      images = {<img
+        src="images/Free-Consult.jpg" alt="Background" className="absolute inset-0 w-full h-full" />}
+      heading = {<p className='text-white md:text-3xl font-bold text-center absolute bottom-20 
+        2xs:left-[15%] 2xs:text-lg
+          xs:left-[30%]
+          base:left:[35%]
+          md:left-[30%] 
+          lg:left-[30%]
+          xl:left-[40%]
+        '>Invisalign in Minneapolis</p>}
+      heading2 = {<p className='text-white md:text-3xl font-bold text-center absolute 
+        md:bottom-10
+        bottom-14
+
+        2xs:left-[15%] 2xs:text-lg
+          xs:left-[30%]
+          base:left:[35%]
+          md:left-[30%] 
+          lg:left-[30%]
+          xl:left-[40%]
+        '>For Kids, Teens & Adults</p>}
+      />
     <div className='mx-6'>
       <h1 className='text-mintGreen text-3xl font-bold my-4'>About Invisalign</h1>
       <p className=' my-4'>Invisalign uses a series of invisible, removable, and comfortable aligners that no one can tell you’re wearing. You can smile more during treatment and after. Invisalign is made with 3D computer imaging technology and has been proven as effective as traditional metal dental braces.</p>

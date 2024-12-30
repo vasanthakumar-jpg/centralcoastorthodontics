@@ -1,27 +1,24 @@
 import React, { useState } from 'react'
 import ExperienceCare from './ExperienceCare'
 import GoogleReview from './GoogleReview'
+import MainHeadingWithImage from './MainHeadingWithImage'
 
 function FreeConsult() {
    
   return <>
-      <div className="relative  h-64 md:h-62 lg:h-[500px] m-4">
-        {/* Background Image */}
-        <img
-          src="images/Free-Consult.jpg" // Replace with your image URL
-          alt="Background"
-          className="absolute inset-0 w-full h-full "
-        />
-        {/* Overlay */}
-        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-        {/* Text Content */}
-        <div className="relative flex items-end bottom-14 justify-center h-full">
-          <h1 className="text-white text-2xl md:text-4xl lg:text-5xl font-bold text-center ">
-            Free Consult
-          </h1>
-        </div>
-      </div>
-
+     
+    <MainHeadingWithImage 
+          images = {<img
+          src="images/Free-Consult.jpg" alt="Background" className="absolute inset-0 w-full h-full" />}
+          heading = {<p className='text-white text-4xl font-bold text-center absolute bottom-20 
+          2xs:left-[25%] 2xs:text-xl
+              xs:left-[30%]
+              base:left-[35%]
+              md:left-[40%] 
+              lg:left-[40%]
+              xl:left-[45%]
+          '>Free Consult</p>}
+          />
       <div>
         <h1 className='text-center text-xl font-bold text-mintGreen'>Get Started Today</h1>
         <p className='text-center break-words mx-2'>We proudly serve patients of all ages from Minneapolis, MN, and the surrounding areas!</p>

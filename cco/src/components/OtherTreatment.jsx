@@ -1,9 +1,24 @@
 import React from 'react'
+import MainHeadingWithImage from './MainHeadingWithImage'
 
 export default function OtherTreatment() {
   return <>
   <div>
     
+    <MainHeadingWithImage 
+          images = {<img
+            src="images/Free-Consult.jpg" alt="Background" className="absolute inset-0 w-full h-full" />}
+          heading = {<p className='text-white md:text-3xl font-bold text-center absolute bottom-20 
+          2xs:left-[25%] 2xs:text-xl
+          xs:left-[30%]
+          base:left-[35%]
+          md:left-[40%] 
+          lg:left-[40%]
+          xl:left-[45%]
+          '>
+          Other Treatments</p>}
+          />
+
     <div className='p-5'>
     <ul>
         <li className='text-mintGreen text-3xl font-bold'>
@@ -111,6 +126,10 @@ export default function OtherTreatment() {
     <img src="https://mintortho.com/wp-content/uploads/2024/03/Sleep-Apnea-1024x683.jpg"
     className='w-[550px] h-[400px] xl:w-full xl:h-full xl:px-5 py-5'
     alt="" />
+    <p className='text-gray-500 font-bold text-3xl'>Sleep Apnea</p>
+    <p className='py-2 text-base'>Wearing a mouthguard can be an effective treatment option for a specific type of sleep apnea called obstructive sleep apnea (OSA). OSA occurs when the muscles in the back of the throat fail to keep the airway open during sleep, leading to repeated pauses in breathing and disrupted sleep patterns. A mouthguard used to treat sleep apnea is called a mandibular advancement device (MAD) or a mandibular repositioning device (MRD).</p>
+    <p className='text-gray-500 font-bold text-3xl'>Teeth Grinding (Bruxism)</p>
+    <p className='py-2 text-base'>Do you grind your teeth at night? Do you wake up with a sore or stiff jaw after a night’s sleep? If so, a mouthguard might be something to consider. Mouth guards provide protection from teeth grinding in a number of ways.</p>
     </div>
 
   </div>

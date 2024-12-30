@@ -1,9 +1,51 @@
 import React from 'react'
 import { ImMobile } from 'react-icons/im'
 import { MdLocationPin } from 'react-icons/md'
+import MainHeadingWithImage from './MainHeadingWithImage'
 
 export default function Location() {
   return <>
+{/* 
+ */}
+
+<MainHeadingWithImage
+      images = {<img
+        src="images/Free-Consult.jpg" alt="Background" className="absolute inset-0 w-full h-full" />}
+      heading = {<p className='text-white text-4xl font-bold text-center absolute 
+        bottom-24 
+        md:bottom-32
+
+      2xs:left-[25%] 2xs:text-xl
+          xs:left-[30%]
+          base:left-[35%]
+          md:left-[35%] 
+          lg:left-[40%]
+          xl:left-[45%]
+      '>
+       Orthodontics In </p>}
+       heading2 = {<p className='text-white text-4xl font-bold text-center absolute 
+        bottom-20
+        md:bottom-24
+                2xs:left-[25%] 2xs:text-xl
+            xs:left-[30%]
+            base:left-[35%]
+            md:left-[35%] 
+            lg:left-[40%]
+            xl:left-[45%]
+        '>
+         Minneapolis,MN In </p>}
+         heading3 = {<p className='text-white text-4xl font-bold text-center absolute 
+          2xs:bottom-16 
+        2xs:left-[15%] 2xs:text-xl
+            xs:left-[30%]
+            base:left-[35%]
+            sm:left-[35%]
+            md:left-[35%] 
+            lg:left-[40%]
+            xl:left-[45%]
+        '>We Straightten Teeth Wel.</p>
+         }
+      />
     <div className='my-2 mx-4 '>
       <h1 className='text-center text-2xl font-bold'>Come Visit Us</h1>
       <p className='text-center mx-4 break-words'>We proudly serve patients of all ages from Minneapolis, MN, and the surrounding areas, so request your free consultation with Dr. Sudit today!</p>

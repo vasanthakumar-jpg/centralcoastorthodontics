@@ -1,9 +1,24 @@
 import React from 'react'
 import { FaArrowRight } from 'react-icons/fa'
 import { HiOutlineChat } from 'react-icons/hi'
+import MainHeadingWithImage from './MainHeadingWithImage'
 
 export default function Blog() {
-  return (
+  return <>
+    <MainHeadingWithImage 
+          images = {<img
+            src="images/Free-Consult.jpg" alt="Background" className="absolute inset-0 w-full h-full" />}
+          heading = {<p className='text-white text-3xl font-bold text-center absolute bottom-20 
+              2xs: left-[35%]
+              xs:left-[35%] 
+              base:left-[40%]
+              sm:left-[40%]
+              md:left-[40%] 
+              lg:left-[40%]
+              xl:left-[45%]
+          '>
+           Blog</p>}
+          />
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 absolute p-5' >
       <Card 
       image = {<img src='https://mintortho.kinsta.cloud/wp-content/uploads/2024/03/Night-Time-Only-Treatment.jpg'
@@ -29,7 +44,7 @@ export default function Blog() {
       content = {"Welcome to the ultimate orthodontist selection guide, where we’re diving deep into the quest of choosing the best orthodontist."}
       />
     </div>
-  )
+    </>
 }
 
 const Card = (props) => {
