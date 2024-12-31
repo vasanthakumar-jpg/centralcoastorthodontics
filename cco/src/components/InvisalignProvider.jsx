@@ -14,6 +14,7 @@ export default function InvisalignProvider() {
           images={<img src="https://mintortho.com/wp-content/uploads/2020/09/Visit-Our-Minneapolis-office.png"  
           className='lg:absolute bottom-0 animate-resize'  alt="" />} /> 
     </div>
+    <h1 className='text-mintGreen font-bold text-3xl text-center flex justify-center items-center p-3 lg:p-6 '>Welcome to Mint Orthodontics in Minneapolis</h1>
           <MintOrthodonticsINMinneapolis/>
     </>
 }
@@ -55,34 +56,35 @@ const BraceInMinneapolis = () => {
 
 const MintOrthodonticsINMinneapolis = () => {
     return <>
-    <div className='lg:grid lg:grid-cols-5 lg:grid-flow-dense lg:mx-6 py-8 '>
+    <div className='lg:grid lg:grid-cols-5 lg:grid-flow-dense lg:mx-6 p-6'>
 
         <div className="h-full grid md:grid-cols-2 sm:grid-cols-1 
-            lg:grid-cols-2 lg:col-span-2 lg:w-[100%] 
+            lg:grid-cols-2 lg:col-span-2  
               order-2 lg:order-1 bg-gray-200  ">
         
           <div className="mx-6">  
-              <h2 className="text-xl font-bold text-mintGreen my-4">Address</h2>
+              <h2 className="text-xl font-bold text-mintGreen my-5">Address</h2>
               <h2 className='text-extrabold text-lg text-slate-700'>Minnepolis</h2>
-              <p className='mx-2 flex text-sm my-2'><MdLocationPin className='text-mintGreen m-1'/> 2804 W43rd St</p>
+              <p className='mx-2 flex text-sm my-2'><MdLocationPin className='text-mintGreen m-1'/> 2804 W43rd St
+              </p>
               <p className='mx-8 text-sm'>Minnepolis, MN 55419</p>
 
               <h1 className='text-xl font-bold text-mintGreen my-3'>Call / Text</h1>
               <p className='my-2 mx-2 flex text-sm'><ImMobile className='text-mintGreen m-1'/> 123-456-7890</p>
           </div>
 
-          <div className='sm:my-4 h-full '>
+          <div className='sm:my-4'>
           
-              <div className='md:float-end lg:float-start 
+              <div className=' lg:float-start 
               2xs:mx-4
               sm:mx-4
-              md:mx-4 lg:mx-4 lg:px-6'>
+              md:mx-4 lg:mx-4'>
               <h1 className='text-xl font-bold text-mintGreen my-2'>Services</h1>
               <ul className='list-disc pl-5 marker:text-mintGreen'>
-                <li>Invisalign</li>
-                <li>Braces</li>
-                <li>Other Treatments</li>
-                <li>Patient Resources</li>
+                <li className='py-1'>Invisalign</li>
+                <li className='py-1'>Braces</li>
+                <li className='py-1'>Other Treatments</li>
+                <li className='py-1'>Patient Resources</li>
               </ul>
 
               </div>
@@ -92,10 +94,10 @@ const MintOrthodonticsINMinneapolis = () => {
         </div>
 
 
-        <div className=' border-2 lg:col-span-3 order-1 lg:order-2'>
+        <div className=' border-2 lg:col-span-3 order-1 lg:order-2 '>
           <img
             src="https://mintortho.com/wp-content/uploads/2020/09/Welcome-to-Mint-Orthodontics-in-Minneapolis.jpg" 
-            className='w-full h-96 lg:h-[500px]'/>
+            className='w-full h-96 lg:w-auto lg:h-auto'/>
           
         </div>
         

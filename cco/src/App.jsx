@@ -41,12 +41,13 @@ export default function App() {
   {/* <Blog/> */}
 
 {/* Location Drop Down */}
-  {/* <Location/> */}
+  <Location/>
+  <LocationSubComponents/>
+<InvisalignProvider/>
 
-<ImageVideoSlider/>
+{/* <ImageVideoSlider/> */}
 
   {/* <InvisalignProvider/> */}
-  {/* <LocationSubComponents/> */}
   {/* <About/>  */}
    {/* <FreeConsult/> */}
   {/* <ExperienceCare/>  */}
