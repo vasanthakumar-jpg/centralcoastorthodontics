@@ -17,8 +17,8 @@ export default function PatientReviews() {
           xl:left-[45%]
             '>Patient Reviews</p>}
           />
-          <div className='mx-6'>
-            <p className='pt-6'>Check out what our patients are saying about their 5-star experience with our amazing team!</p>
+          <div className='mx-2'>
+            <p className='p-4'>Check out what our patients are saying about their 5-star experience with our amazing team!</p>
             <Reviews 
             name = {"Kristin G."}
             month = {"a month ago"}
@@ -78,21 +78,21 @@ export default function PatientReviews() {
 
 const Reviews = (props) => {
     return <>
-    <div className='border border-gray-200 m-5 p-4'>
+    <div className='border border-gray-200 m-4 px-4'>
         <div className='flex justify-between'>
-        <h1 className='font-bold text-base'>{props.name}</h1> 
+        <h1 className='font-bold text-gray-700 text-lg'>{props.name}</h1> 
         <img src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png
         " className='h-6 w-6 ' alt="" />
         </div>
-        <div className='flex gap-2'>
+        <div className='flex gap-1 py-1'>
         <FaStar className='text-sm text-yellowStar'/>
         <FaStar className='text-sm text-yellowStar'/>
         <FaStar className='text-sm text-yellowStar'/>
         <FaStar className='text-sm text-yellowStar'/>
         <FaStar className='text-sm text-yellowStar'/>
         </div>
-        <p className='text-xs text-gray-500'>{props.month}</p>
-        <p className='text-xs py-3 text-gray-500'>{props.para}</p>
+        <p className='text-sm text-gray-500'>{props.month}</p>
+        <p className='2xs:text-sm md:text-base py-3 text-gray-500'>{props.para}</p>
     </div>
     </>
 }

@@ -18,65 +18,71 @@ export default function GetToKnowUs() {
       <div className="lg:flex lg:flex-col-reverse">
         <div className="flex justify-center items-center mx-4">
           <img src="https://mintortho.com/wp-content/uploads/2024/02/Get-To-Know-Us-1.jpg" 
-          className=" w-full 2xs:h-full  md:h-96 mx-4" alt="" /></div>
+          className=" w-full 2xs:h-auto  md:h-auto mx-4" alt="" /></div>
         
-        <div className="lg:flex lg:flex-row lg:my-5 mx-4">
+        <div className="lg:flex lg:flex-row lg:my-5 mx-4 p-5">
           <div className="lg:w-2/5">
-          <h1 className="text-2xl font-bold text-brown mx-4 my-2 lg:text-5xl lg:mx-10 lg:my-6">Get To Know Us</h1>
+          <h1 className="text-2xl font-bold text-brown mx-4 my-2 lg:text-4xl lg:mx-10 lg:my-6 xl:text-5xl">Get To Know Us</h1>
           </div>
-          <div className="lg:w-3/5 lg:my-2"><p className="text-sm mx-4 my-2 lg:text-lg">We are so proud of our awesome team. They are talented, smart, and go above and beyond to make your day a little brighter.</p>
+          <div className="lg:w-3/5 lg:my-2"><p className="text-sm mx-4 my-2 lg:text-xl">We are so proud of our awesome team. They are talented, smart, and go above and beyond to make your day a little brighter.</p>
             <button className="bg-mintGreen text-white px-4 p-2 border-2 border-white
-             hover:bg-white hover:text-mintGreen hover:border-mintGreen mx-4 my-2">MEET OUR TEAM</button>
+             hover:bg-white hover:text-mintGreen hover:border-mintGreen mx-4 my-6">MEET OUR TEAM</button>
           </div>
         </div>
     </div>
 
-    <div className="">
-      <h1 className="text-2xl font-bold text-brown lg:text-4xl text-center m-4  ">Better tech, better service, better orthodontics</h1>
-      <p className="text-center md:text-sm m-4 break-words  2xs:text-sm ">Committed to excellence, we use only the most advanced tools and <span className="text-mintGreen">technology</span> to achieve seamless, comfortable, and personalized treatments from start to finish.</p>
+    <div className="xl:flex xl:flex-col xl:w-full xl:px-20 xl:py-20">
+      <h1 className="text-2xl font-bold text-brown lg:text-4xl text-center m-4 xl:text-6xl ">Better Tech, Better Service, Better Orthodontics</h1>
+      <p className="text-center md:text-lg m-4 break-words 2xs:text-base xl:px-20 2xs:p-5">Committed to excellence, we use only the most advanced tools and <span className="text-mintGreen">technology</span> to achieve seamless, comfortable, and personalized treatments from start to finish.</p>
     </div>
 
     <div>
-    <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-4 lg:my-10 my-5 mx-4'>
+    <div className='grid grid-cols-1 xl:grid-cols-2 gap-4 lg:gap-4 lg:my-10 my-5 mx-4'>
+     
       <div className=' md:flex md:justify-center md:items-center md:gap-4 md:mx-4 border border-gray-200'>
         <div className='2xs:flex justify-center items-center 2xs:my-6 md:ml-8'>
-          <img src="images/iTero-Scanner.png" className='h-32 w-52 lg:w-full lg:h-full'  alt="iTero Scanner" /></div>
+          <img src="https://mintortho.kinsta.cloud/wp-content/uploads/2024/02/iTero-Scanner.png" 
+          className='h-auto w-auto lg:w-full lg:h-full xl:w-full xl:h-full'  alt="iTero Scanner" /></div>
         <div className='2xs:my-2 2xs:mx-4 md:mr-10 '>
-          <h1 className='2xs:text-base  tracking-widest font-medium'>iTero Scanner</h1>
-              <p className='text-sm md:break-words my-2'>No more messy impressions! With the iTero Scanner, we can create a more accurate, more comfortable, and fully digital model of your smile.
+          <h1 className='2xs:text-base  tracking-widest lg:text-3xl font-medium py-4 px-10'>iTero Scanner</h1>
+              <p className='text-sm md:break-words md:text-lg lg:text-lg px-10'>No more messy impressions! With the iTero Scanner, we can create a more accurate, more comfortable, and fully digital model of your smile.
               </p>
         </div>
       </div>
       
       <div className=' md:flex md:justify-center md:items-center md:gap-4 md:mx-4 border border-gray-200'>
         <div className='2xs:flex justify-center items-center 2xs:my-6 md:ml-8'>
-          <img src="images/dental-monitoring.png" className='h-32 w-52 lg:w-full lg:h-full'  alt="Dental Monitoring" /></div>
+          <img src="https://mintortho.kinsta.cloud/wp-content/uploads/2024/07/dental-monitoring-design-img.png"
+           className='h-auto w-64 lg:w-64 lg:h-full xl:w-full xl:h-full'  alt="iTero Scanner" /></div>
         <div className='2xs:my-2 2xs:mx-4 md:mr-10 '>
-          <h1 className='2xs:text-base  tracking-widest font-medium'>DentalMonitoring</h1>
-              <p className='text-sm md:break-words my-2'>With DentalMonitoring, we can monitor your progress between in-office visits, saving you time while we ensure your treatment is progressing as it should.</p>
+          <h1 className='2xs:text-base  tracking-widest lg:text-3xl font-medium py-4 px-10'>DentalMonitoring</h1>
+              <p className='text-sm md:break-words md:text-lg lg:text-lg px-10'>With DentalMonitoring, we can monitor your progress between in-office visits, saving you time while we ensure your treatment is progressing as it should.</p>
         </div>
       </div>
 
       <div className=' md:flex md:justify-center md:items-center md:gap-4 md:mx-4 border border-gray-200'>
         <div className='2xs:flex justify-center items-center 2xs:my-6 md:ml-8'>
-          <img src="images/Retain-img.png" className='h-32 w-52 lg:w-full lg:h-full'  alt="Retain" /></div>
+         
+          <img src="https://mintortho.kinsta.cloud/wp-content/uploads/2024/02/Retain-img.png" 
+          className='h-auto w-auto lg:w-full lg:h-full xl:w-full xl:h-full'  alt="Retain" /></div>
         <div className='2xs:my-2 2xs:mx-4 md:mr-10 '>
-          <h1 className='2xs:text-base  tracking-widest font-medium'>Retain</h1>
-              <p className='text-sm md:break-words my-2'>Need a new retainer? The Retain program is a customized and convenient retainer service designed to ensure your treatment results last a lifetime.</p>
+          <h1 className='2xs:text-base  tracking-widest lg:text-3xl font-medium py-4 px-10'>Retain</h1>
+              <p className='text-sm md:break-words md:text-lg lg:text-lg px-10'>Need a new retainer? The Retain program is a customized and convenient retainer service designed to ensure your treatment results last a lifetime.</p>
         </div>
       </div>
 
-      <div className=' md:flex md:justify-center md:items-center md:gap-4 md:mx-4 border border-gray-200'>
+      <div className=' md:flex md:justify-center md:items-center md:gap-4 md:mx-4 border border-gray-200  '>
         <div className='2xs:flex justify-center items-center 2xs:my-6 md:ml-8'>
-          <img src="images/LightForce.png" className='h-32 w-52 lg:w-full lg:h-full' alt="LightForce" /></div>
-        <div className='2xs:my-2 2xs:mx-4 md:mr-10 '>
-          <h1 className='2xs:text-base  tracking-widest font-medium'>LightForce</h1>
-              <p className='text-sm md:break-words my-2'>LightForce brackets are cutting-edge dental braces that combine modern 3D-printing technology with fully digital, customized treatment.</p>
+          <img src="https://mintortho.kinsta.cloud/wp-content/uploads/2024/02/LightForce.png" 
+          className='h-auto w-auto lg:w-full lg:h-full xl:w-[350px] xl:h-full' alt="LightForce" /></div>
+        <div className='2xs:my-2 2xs:mx-4 md:mr-10'>
+          <h1 className='2xs:text-base  tracking-widest lg:text-3xl font-medium py-4 px-10'>LightForce</h1>
+              <p className='text-sm md:break-words md:text-lg lg:text-lg px-10'>LightForce brackets are cutting-edge dental braces that combine modern 3D-printing technology with fully digital, customized treatment.</p>
         </div>
       </div>
 
     </div>
-    <div className='flex justify-center items-center my-5'>
+    <div className='flex justify-center items-center p-16 '>
     <button className='bg-mintGreen text-white px-4 py-2 border-2 border-white
         hover:bg-white hover:text-mintGreen hover:border-mintGreen'>EXPLORE TECHNOLOGY</button>
     </div>
