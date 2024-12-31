@@ -102,7 +102,7 @@ const Dropdown = (props) => {
   
         {/* Dropdown Content */}
       {isOpen && (
-        <div className="bg-gray-200 shadow w-auto  p-5 mx-2">
+        <div className="bg-gray-200 shadow w-auto p-5 mx-2">
           <p className="text-black text-base">{props.dropdown}</p>
         </div>
       )}
