@@ -76,7 +76,7 @@ const Dropdown = (props) => {
     const [isOpen, setIsOpen] = useState(false);
   
     return (
-      <div className="w-full mx-1 mt-10 xl:mx-0 xl:mt-5">
+      <div className="w-full mx-1 mt-10 xl:mx-0 xl:mt-5 ">
         {/* Dropdown Header */}
         <div
           className="flex items-center justify-between bg-gray-200 px-1 py-4  mx-2 cursor-pointer"
@@ -101,11 +101,11 @@ const Dropdown = (props) => {
         </div>
   
         {/* Dropdown Content */}
-        {isOpen && (
-          <div className="  bg-gray-200 shadow p-4">
-            <p className="text-black text-lg font-medium mx-10">{props.dropdown}</p>
-          </div>
-        )}
+      {isOpen && (
+        <div className="bg-gray-200 shadow w-auto  p-5 mx-2">
+          <p className="text-black text-base">{props.dropdown}</p>
+        </div>
+      )}
       </div>
     );
   };
