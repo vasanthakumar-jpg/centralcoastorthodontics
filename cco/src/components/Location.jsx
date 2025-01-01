@@ -5,9 +5,7 @@ import MainHeadingWithImage from './MainHeadingWithImage'
 
 export default function Location() {
   return <>
-{/* 
- */}
-
+  <div id='Location'>
 <MainHeadingWithImage
       images = {<img
         src="images/Free-Consult.jpg" alt="Background" className="absolute inset-0 w-full h-full" />}
@@ -86,6 +84,9 @@ export default function Location() {
       
     </div>
     <Map/>
+    
+  </div>
+
     </>
 }
 

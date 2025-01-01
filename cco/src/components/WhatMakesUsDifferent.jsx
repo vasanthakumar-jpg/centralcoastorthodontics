@@ -2,7 +2,7 @@ import React from 'react'
 import MainHeadingWithImage from './MainHeadingWithImage'
 
 export default function WhatMakesUsDifferent() {
-  return (
+  return <>
     <div>
      <MainHeadingWithImage 
                images = {<img
@@ -52,7 +52,11 @@ export default function WhatMakesUsDifferent() {
             <li>No Waiting For Your Appointment — We arrange our appointments so that there is as little waiting as possible. If an unexpected event does impact the schedule, we do our best to warn you before arrival.</li>
             <li>Treatment Based Around Your Needs — First we listen – to your concerns, questions, & treatment ideas. Second, we evaluate your teeth and bite. Finally, we recommend treatment options best for you.</li>
         </ul>
+        
       </div>
     </div>
-  )
+    <div className='flex justify-center items-center'>
+    <a href="#MeetDrSudit" className=' my-4 px-2 py-2 bg-white text-mintGreen border-2 border-mintGreen '>Meet Dr Sudit</a>
+    </div>
+  </>
 }

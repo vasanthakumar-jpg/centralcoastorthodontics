@@ -3,8 +3,8 @@ import MainHeadingWithImage from './MainHeadingWithImage'
 import { FaStar } from 'react-icons/fa'
 
 export default function PatientReviews() {
-  return (
-    <div>
+  return <>
+    <div id='PatientResources'>
       <MainHeadingWithImage 
           images = {<img
             src="images/Free-Consult.jpg" alt="Background" className="absolute inset-0 w-full h-full" />}
@@ -72,7 +72,12 @@ export default function PatientReviews() {
 
           </div>
     </div>
-  )
+
+<div className='flex justify-center items-center'>
+<a href="#Location" 
+className=' my-4 px-2 py-2 bg-white text-mintGreen border-2 border-mintGreen '>Location</a>
+</div>
+  </>
 }
 
 

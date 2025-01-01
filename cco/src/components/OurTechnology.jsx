@@ -2,8 +2,8 @@ import React from 'react'
 import MainHeadingWithImage from './MainHeadingWithImage'
 
 export default function OurTechnology() {
-  return (
-    <div>
+  return   <>
+    <div id = 'OurTechnology'>
     <MainHeadingWithImage 
     images = {<img
       src="images/Free-Consult.jpg" alt="Background" className="absolute inset-0 w-full h-full" />}
@@ -57,14 +57,18 @@ export default function OurTechnology() {
    
    />
   </div>
-  )
+  <div className='flex justify-center items-center'>
+        <a href="#PatientResources" 
+        className=' my-4 px-2 py-2 bg-white text-mintGreen border-2 border-mintGreen '>Patient Resources</a>
+  </div>
+  </>
 }
 
 function Items(props) {
     return <>
     <div className='mx-6'>
     {props.images}
-    <h1 className='text-mintGreen 2xs:text-3xl md:text-6xl font-bold'>{props.heading}</h1>
+    <h1 className='text-mintGreen 2xs:text-3xl lg:text-4xl font-bold'>{props.heading}</h1>
     <p className='py-6 break-words 2xs:text-base md:text-lg'>{props.para1}</p>
     <p className='py-6 break-words 2xs:text-base md:text-lg'>{props.para2}</p>
     <div>
@@ -78,5 +82,7 @@ function Items(props) {
         )}
     </div>
     </div>
+
+    
     </>
 }

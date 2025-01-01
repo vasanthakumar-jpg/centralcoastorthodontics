@@ -4,7 +4,7 @@ import MainHeadingWithImage from './MainHeadingWithImage'
 export default function MeetDrSudit() {
   return (
     
-    <div>
+    <div id='MeetDrSudit'>
 
       <MainHeadingWithImage 
           images = {<img
@@ -51,7 +51,12 @@ export default function MeetDrSudit() {
             paragraph={"After working with Dr. Randy Kunik for a few years and earning a reputation for quality care, exceptional work and a top-notch ability for connecting and relating to his patients, he is proud to be out on his own, doing what he loves, and returning to the city that he loves — Minneapolis."}    
             subpara={"Dr. Sudit is an avid sports fan, loves trying new restaurants, traveling, and spending as much time with his young family as his busy life will allow."}
             subheading={"Outside of the Practice"}
-            />    
+            />
+
+            <div className='flex justify-center items-center'>
+        <a href="#OurTechnology" 
+        className=' my-4 px-2 py-2 bg-white text-mintGreen border-2 border-mintGreen '>Our Technology</a>
+       </div>    
         </div>
     </div>
   )
@@ -59,7 +64,7 @@ export default function MeetDrSudit() {
 
 function Doctor(props) {
     return <>
-        <div className="lg:flex md:flex-row flex-col">
+        <div className="lg:flex md:flex-row flex-col py-4">
           <div className="lg:w-1/2 w-full">
             {props.images}
           </div>
@@ -74,6 +79,9 @@ function Doctor(props) {
             </div>
           </div>
         </div>  
+       
+        
+
     </>
   }
 
@@ -90,7 +98,6 @@ function Doctor(props) {
   
           </p>
           <p className='2xs:text-sm md:text-lg my-3 '>Dr. Sudit practiced general dentistry in the Minneapolis area before completing his post-graduate training in orthodontics, along with a Master’s Degree in Dentistry. After all of that schooling, Dr. Sudit returned to Austin, excited to learn more under the tutelage of Dr. Randy Kunik, one of the best practitioners of Invisalign in the industry.</p>
-          
         </div>
     </div>
     )

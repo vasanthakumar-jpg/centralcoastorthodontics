@@ -26,10 +26,11 @@ export default function App() {
   {/* Our Practice Drop Drown*/}
 
    {/* <GetToKnowUs/> */}
-  {/* <WhatMakesUsDifferent/> */}
-  {/* <MeetDrSudit/> */}
-  {/* <OurTechnology/> */}
-  {/* <PatientReviews/> */}
+
+ <WhatMakesUsDifferent/>
+    <MeetDrSudit/>
+  <OurTechnology/>
+  <PatientReviews/> 
 
   {/* Orthodontics Drop Down */}
    {/* <AboutInvisalign/> */}
