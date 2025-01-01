@@ -55,7 +55,7 @@ export default function MeetDrSudit() {
 
             <div className='flex justify-center items-center'>
         <a href="#OurTechnology" 
-        className=' my-4 px-2 py-2 bg-white text-mintGreen border-2 border-mintGreen '>Our Technology</a>
+        className=' my-4 px-2 py-2 bg-white text-mintGreen border-2 border-mintGreen'>Our Technology</a>
        </div>    
         </div>
     </div>

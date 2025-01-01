@@ -69,6 +69,11 @@ export default function PatientReviews() {
             month = {"5 months ago"}
             para = {"The Mint Team was amazing! Traveling from out of town called with an emergency and they were able to get us in same day. Can not say enough about how positive our experience was. Definitely would be our orthodontist if we lived in the area. 5 stars all day!!"}
             />
+            <Reviews 
+            name = {"Elizabeth R."}
+            month = {"5 months ago"}
+            para = {"The glue on my permanent retainer wire broke and Mint fixed it the next day free of charge too! They were quick and efficient, it only took 5 minutes for them to fix, and they were so welcoming and friendly! Should the need arise, I will definitely go back to Mint!"}
+            />
 
           </div>
     </div>

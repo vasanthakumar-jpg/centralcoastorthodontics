@@ -59,7 +59,7 @@ export default function OurTechnology() {
   </div>
   <div className='flex justify-center items-center'>
         <a href="#PatientResources" 
-        className=' my-4 px-2 py-2 bg-white text-mintGreen border-2 border-mintGreen '>Patient Resources</a>
+        className=' my-4 px-2 py-2 bg-white text-mintGreen border-2 border-mintGreen'>Patient Resources</a>
   </div>
   </>
 }
